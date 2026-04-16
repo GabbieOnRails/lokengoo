@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[80vh] lg:h-screen w-full bg-[#EBEBEB] overflow-hidden pt-36 pb-12 lg:pt-32 lg:pb-20">
+    <section className="relative min-h-[80vh] lg:h-[900px] w-full bg-[#EBEBEB] overflow-hidden pt-36 pb-12 lg:pt-32 lg:pb-20">
       {/* Background Dashed Lines */}
       <div className="absolute inset-x-0 top-0 h-full grid grid-cols-3 pointer-events-none">
         <div className="border-r border-dashed border-black/10 h-full" />
@@ -77,7 +77,7 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col justify-between px-8 lg:px-16 py-8 lg:py-12 h-full relative"
         >
-          <div className="space-y-6 lg:space-y-8 mt-8 lg:mt-12">
+          <div className="space-y-6 lg:space-y-8 mt-8 lg:mt-12 lg:-ml-[60px]">
             <h1 className="text-4xl sm:text-5xl lg:text-[127px] xl:text-[140px] leading-[0.9] font-black tracking-tighter lowercase flex flex-col">
               <span>elegance</span>
               <span className="text-brand-blue">meets play</span>

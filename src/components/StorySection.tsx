@@ -12,7 +12,7 @@ export default function StorySection() {
   const scale = useTransform(scrollYProgress, [0, 1], [1.2, 1]);
 
   return (
-    <section ref={containerRef} className="relative h-screen w-full overflow-hidden flex flex-col items-center justify-center">
+    <section ref={containerRef} className="relative h-screen w-full overflow-hidden flex flex-col items-center justify-center mt-[30px]">
       <motion.div style={{ scale }} className="absolute inset-0">
         <img 
           src="https://i.ibb.co/C5zJ19sL/Project-Mar-17-02-18-PM-10.png"
